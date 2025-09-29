@@ -1,8 +1,8 @@
 body{
     background: beige;
-    font-family: Helvetica, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif,;
 }
 h1 {
-    color:rgb(139, 63, 8);
+    color:tan;
     text-align: center;
 }
