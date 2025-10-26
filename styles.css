@@ -14,18 +14,17 @@ h1 {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 25px;
+  gap: 15px;
   padding: 20px;
 }
 .project img{
-.project img {
-  width: 100px;
-  margin: 15px;
-  border-radius: 15px;
-  background: #fefefe;
-  padding: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 220px;
+  height: 220px;
+  margin: 10px;
+  border: 2px solid rgb(126, 14, 201);
+  display: block;
+  margin: auto;
+  border-radius: 10px;
 }
 .project img:hover {
   transform: scale(1.05);
