@@ -18,8 +18,8 @@ h1 {
   padding: 20px;
 }
 .project img{
-  width: 220px;
-  height: 220px;
+  width: 300px;
+  height: 300px;
   margin: 10px;
   border: 2px solid rgb(126, 14, 201);
   display: block;
@@ -29,5 +29,4 @@ h1 {
 .project img:hover {
   transform: scale(1.05);
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
-}
 }
