@@ -1,32 +1,77 @@
-body{
-     background: linear-gradient(180deg, #f4e2c2, #d1b28a);
+body {
+  background: linear-gradient(180deg, #f8f4f0, #f3ebe5);
   font-family: 'Lucida Handwriting', cursive;
-  color: #3b2f2f;
+  color: #3e3e3e;
   margin: 0;
   padding: 0;
 }
+
+/* Main Header (Name) */
 h1 {
-    color:brown;
-    text-align: center;
+  font-family: 'Playfair Display', serif; /* classy serif font for contrast */
+  color: #6b5b4d;
+  text-align: center;
+  font-size: 2.8em;
+  letter-spacing: 2px;
+  margin-top: 40px;
 }
+
+/* Subtitles or smaller headers */
+h3 {
+  color: #6b5b4d;
+  text-align: center;
+  font-family: 'Lucida Handwriting', cursive;
+  font-size: 1.3em;
+}
+
+/* Project Section */
 .projects {
-    display: flex;
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 15px;
-  padding: 20px;
+  gap: 25px;
+  padding: 30px;
 }
-.project img{
-  width: 300px;
-  height: 300px;
+
+/* Project Images */
+.project img {
+  width: 250px;
+  height: 250px;
   margin: 10px;
-  border: 2px solid rgb(126, 14, 201);
+  border: 1.5px solid #c7b198; /* nude gold tone */
   display: block;
   margin: auto;
-  border-radius: 10px;
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease-in-out;
 }
+
 .project img:hover {
-  transform: scale(1.05);
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+  transform: scale(1.04);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+/* Text Paragraphs */
+p {
+  font-size: 1em;
+  color: #5b5045;
+  line-height: 1.6;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Link Styling */
+a {
+  color: #6b5b4d;
+  text-decoration: none;
+  border-bottom: 1px solid #d8c0a8;
+  transition: color 0.3s ease, border 0.3s ease;
+}
+
+a:hover {
+  color: #b8997f;
+  border-bottom: 1px solid #b8997f;
 }
